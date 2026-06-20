@@ -9,7 +9,7 @@ toc-depth: 3
 numbersections: true
 ---
 
-# 封面（可选）
+# 封面
 
 <p style="text-align:center; font-size:48px; font-weight:bold;">Haptic Event Schema</p>
 <p style="text-align:center; font-size:24px;">Technical Specification</p>
