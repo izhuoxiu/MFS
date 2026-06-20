@@ -57,7 +57,7 @@ HES 选择后者。
 | E-404 | Emotion.Excite | 兴奋 | Emotion |
 | ... | ... | ... | ... |
 
-> 完整词典请查阅 [完整白皮书文档](docs/haptic-event-schema-v0.1.md)
+> 完整词典请查阅 [完整白皮书文档](haptic-event-schema-v0.1.md)
 
 ### 3. 触觉脚本格式 (HSF)
 
