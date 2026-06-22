@@ -1,7 +1,38 @@
-## 📱 在线实时触觉演示（手机点开即可体验）
-> 请使用 **安卓/苹果手机浏览器** 打开本仓库README，点击下方按钮，实时触发对应HES标准触觉
+# Haptic Event Schema (HES)
+## 一种通用跨平台·语义化触觉交互开源标准
+[![License CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
-| 编码 | 触觉名称 | 在线演示 |
-| ---- | ---- | ---- |
-| F-104 | 爆发震动 | <button onclick="navigator.vibrate([100,50,100])">点击体验F-104</button> |
-| R-104 | 心跳震动 | <button onclick="navigator.vibrate([80,50,40])">点击体验R-104</button> |
+
+
+---
+
+## 📱 手机在线实时触觉演示
+> ⚠️ 请使用 **手机浏览器打开本页面**，点击下方按钮，即刻体验对应HES标准触觉反馈
+> 完美支持安卓、iPhone全机型原生马达
+
+### 🔥 高频常用词条一键体验
+| HES编码 | 触觉语义 | 在线点击演示 |
+| :---: | :---: | :---: |
+| F-101 | 轻触 | <button onclick="navigator.vibrate(15)">点击体验</button> |
+| F-102 | 敲击 | <button onclick="navigator.vibrate(30)">点击体验</button> |
+| F-104 | 爆发 | <button onclick="navigator.vibrate([150])">点击体验</button> |
+| R-104 | 心跳 | <button onclick="navigator.vibrate([80,50,40])">点击体验</button> |
+| M-301 | 上升渐强 | <button onclick="navigator.vibrate([200,100,300])">点击体验</button> |
+
+---
+
+## ✨ 项目核心优势
+告别碎片化底层震动API，**用一句话语义，跨安卓、苹果全平台统一触觉体验**
+- 完整覆盖 **F-101 ~ E-406 全套30个标准HES触觉词条**
+- 硬件无关语义描述，无需针对不同马达重复适配波形
+- 一套事件编码，iOS / Android / VR / 穿戴 / 车载全终端通用
+- 支持音视频全自动AI解析，一键生成标准化HSF触觉时序脚本
+
+---
+
+## 📱 极致极简调用 · 全平台零门槛接入
+### 🤖 Android 开发者接入
+仅需复制SDK文件放入项目，一行代码触发标准触觉
+```java
+// 直接传入HES标准词条编码 + 震动强度(0.0~1.0)
+HESEngine.play("F-104", 1.0f);
