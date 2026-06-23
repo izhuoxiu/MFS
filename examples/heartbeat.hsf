@@ -1,1 +1,14 @@
-
+{
+  "schema": "HapticScriptFormat",
+  "version": "0.2.2",
+  "meta": { "title": "心跳示例", "duration_ms": 2000 },
+  "tracks": [
+    {
+      "id": "vibration",
+      "device_target": "phone_multi_motor",
+      "events": [
+        { "time_ms": 0, "event_ref": "R-104", "intensity": 0.8 }
+      ]
+    }
+  ]
+}
