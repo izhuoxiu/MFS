@@ -9,6 +9,6 @@
 ```json
 {
   "schema": "HapticScriptFormat",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "tracks": [{ "events": [{ "time_ms": 0, "event_ref": "R-104" }] }]
 }
