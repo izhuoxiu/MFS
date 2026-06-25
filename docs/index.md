@@ -2,7 +2,7 @@
 > ## 1、点击查看完整白皮书：[v0.2.3 技术规范](https://github.com/izhuoxiu/MFS/blob/main/docs/MFS%E5%A4%9A%E6%A8%A1%E6%80%81%E5%8F%8D%E9%A6%88%E7%B3%BB%E7%BB%9F%E7%99%BD%E7%9A%AE%E4%B9%A6V0.2.3.md)MFS多模态反馈系统白皮书
 >
 >
- >## 2、MFS内核是一套基于C++编译为Wasm、完全遵循MFS v0.2.3规范的HSF脚本解析与时序调度引擎，统一解析多轨JSON脚本并按视频毫秒时序分发震动、屏幕彩带、闪光灯三模态事件，供H5与APP WebView共用。[面向小白开发MFS内核]（https://github.com/izhuoxiu/MFS/tree/main/core）
+ >## 2、MFS内核是一套基于C++编译为Wasm、完全遵循MFS v0.2.3规范的HSF脚本解析与时序调度引擎，统一解析多轨JSON脚本并按视频毫秒时序分发震动、屏幕彩带、闪光灯三模态事件，供H5与APP WebView共用。[面向小白开发MFS内核]（https://github.com/izhuoxiu/MFS/blob/main/core/readme.md）
 >核心标语：MFS未来可及，此刻正发生
 >
 >**当前定稿版本：V0.2.3**
