@@ -4,7 +4,7 @@
 >
  >## 2、MFS内核是一套基于C++编译为Wasm、完全遵循MFS v0.2.3规范的HSF脚本解析与时序调度引擎，统一解析多轨JSON脚本并按视频毫秒时序分发震动、屏幕彩带、闪光灯三模态事件，供H5与APP WebView共用。[面向小白开发MFS内核地址](https://github.com/izhuoxiu/MFS/blob/main/core/readme.md)
 >
-> 捉秀player，看视频、听音乐沉寂式体验哦，[下载地址](https://github.com/izhuoxiu/MFS/releases/download/v1.09/player1.09.zip  捉秀player看视频、听音乐沉寂式体验。)
+>## 3、[捉秀player，看视频、听音乐沉浸式体验哦,点击下载吧](https://github.com/izhuoxiu/MFS/releases/download/v1.09/player1.09.zip)
 >核心标语：MFS未来可及，此刻正发生
 >
 >**当前定稿版本：V0.2.3**
